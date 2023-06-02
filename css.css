@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+}
+
+.imagem{
+    width:100%;
+    
+}
+
+.caixa{
+    position: relative;
+}
+
+.texto1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    background-image:linear-gradient(to right, rgb(185, 115, 16), rgb(237, 192, 71));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
