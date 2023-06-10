@@ -2,26 +2,26 @@
 
 body{
     margin: 0px;
+    background-image: url(6671766-fantastica-lua-magica-luz-e-agua-barco-com-arvore-papel-de-parede-gratis-foto.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
 }
 
-.imagem{
-    width:100%;
-    
-}
-
-.caixa{
-    position: relative;
+div.caixa{
+    height: 1000px;
+    width: 100%;
 }
 
 .texto1{
-    position: absolute;
     top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 40%;
+    position: absolute;
     font-size: 80px;
     background-image:linear-gradient(to right, rgb(185, 115, 16), rgb(237, 192, 71));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin: 0px;
    
 }
 
